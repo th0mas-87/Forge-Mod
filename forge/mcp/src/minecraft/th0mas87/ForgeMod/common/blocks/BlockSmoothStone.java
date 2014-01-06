@@ -8,14 +8,14 @@ import net.minecraft.creativetab.CreativeTabs;
 public class BlockSmoothStone extends Block {
 
 	public BlockSmoothStone(int id) {
-		super(id, Material.rock);
-		this.setCreativeTab(CreativeTabs.tabBlock);
-		this.setHardness(3.0F);
-		this.setResistance(20.0F);
+		super(id, Material.rock);						// call the default Block constructor with the id paramater and a Material of rock
+		this.setCreativeTab(CreativeTabs.tabBlock);		// set creative tab to the Block tab
+		this.setHardness(3.0F);							// set the hardness to twice that of stone
+		this.setResistance(20.0F);						// set the resistance to twice that of stone
 	}
 
 	public void registerIcons(IconRegister iconRegister) {
-		this.blockIcon = iconRegister.registerIcon("forgemod:smoothStone");
+		this.blockIcon = iconRegister.registerIcon("forgemod:smoothStone");		// register icon located at /forgemod/textures/blocks/smoothStone.png
 	}
 
 }

@@ -29,8 +29,8 @@ public class ForgeModCommonProxy implements IGuiHandler {
 	}
 
 	public void registerBlocks() {
-		GameRegistry.registerBlock(ForgeMod.smoothStone, "smoothStone");
-		LanguageRegistry.addName(ForgeMod.smoothStone, "Smooth Stone");
+		GameRegistry.registerBlock(ForgeMod.smoothStone, "smoothStone");		// register Smooth Stone Block under the name "smoothStone"
+		LanguageRegistry.addName(ForgeMod.smoothStone, "Smooth Stone");			// register Smooth Stone Block under the in-game name "Smooth Stone"
 	}
 
 	public void registerItems() {
