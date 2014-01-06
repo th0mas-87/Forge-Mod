@@ -1,0 +1,11 @@
+package th0mas87.ForgeMod.client;
+
+import th0mas87.ForgeMod.common.ForgeModCommonProxy;
+import net.minecraftforge.client.MinecraftForgeClient;
+
+public class ForgeModClientProxy extends TutorialModCommonProxy {
+
+public void registerRenderInformation(){
+}
+
+}

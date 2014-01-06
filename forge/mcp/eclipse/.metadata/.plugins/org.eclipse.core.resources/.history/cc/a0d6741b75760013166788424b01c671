@@ -1,0 +1,5 @@
+package th0mas87.ForgeMod.common.handlers;
+
+public class ForgeModClientPacketHandler {
+
+}
