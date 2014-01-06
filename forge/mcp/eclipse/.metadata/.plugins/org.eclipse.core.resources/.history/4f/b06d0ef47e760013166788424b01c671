@@ -33,15 +33,12 @@ public class ForgeMod {
 	public void PreInit(FMLPreInitializationEvent e) {
 		// Blocks
 		smoothStone = new BlockSmoothStone(2500)
-				.setUnlocalizedName("smoothStone"); // Smooth Stone Block with
-													// id of 2500 and
-													// unlocalized name of
-													// smoothStone
+				.setUnlocalizedName("smoothStone");		// Smooth Stone Block with id of 2500 and unlocalized name of smoothStone
 	}
 
 	@Init
 	public void InitForgeMod(FMLInitializationEvent event) {
-		proxy.registerBlocks(); // register new Blocks
+		proxy.registerBlocks();											// register new Blocks
 		NetworkRegistry.instance().registerGuiHandler(this, proxy);
 	}
 

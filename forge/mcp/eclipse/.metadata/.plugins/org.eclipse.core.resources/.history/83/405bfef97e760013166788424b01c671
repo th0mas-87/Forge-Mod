@@ -9,7 +9,7 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 public class ForgeModCommonProxy implements IGuiHandler {
 
 	public void registerRenderInformation() {
-
+		
 	}
 
 	@Override
@@ -25,27 +25,12 @@ public class ForgeModCommonProxy implements IGuiHandler {
 	}
 
 	public void registerTiles() {
-
+		
 	}
 
 	public void registerBlocks() {
-		GameRegistry.registerBlock(ForgeMod.smoothStone, "smoothStone"); // register
-																			// Smooth
-																			// Stone
-																			// Block
-																			// under
-																			// the
-																			// name
-																			// "smoothStone"
-		LanguageRegistry.addName(ForgeMod.smoothStone, "Smooth Stone"); // register
-																		// Smooth
-																		// Stone
-																		// Block
-																		// under
-																		// the
-																		// in-game
-																		// name
-																		// "Smooth Stone"
+		GameRegistry.registerBlock(ForgeMod.smoothStone, "smoothStone");		// register Smooth Stone Block under the name "smoothStone"
+		LanguageRegistry.addName(ForgeMod.smoothStone, "Smooth Stone");			// register Smooth Stone Block under the in-game name "Smooth Stone"
 	}
 
 	public void registerItems() {
