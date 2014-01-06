@@ -1,5 +1,7 @@
 package th0mas87.ForgeMod.common;
 
+import net.minecraft.block.Block;
+import th0mas87.ForgeMod.common.blocks.BlockSmoothStone;
 import th0mas87.ForgeMod.common.handlers.ForgeModClientPacketHandler;
 import th0mas87.ForgeMod.common.handlers.ForgeModServerPacketHandler;
 import cpw.mods.fml.common.Mod;
@@ -23,13 +25,20 @@ public class ForgeMod {
 	@SidedProxy(clientSide = "th0mas87.ForgeMod.client.ForgeModClientProxy", serverSide = "th0mas87.ForgeMod.common.ForgeModCommonProxy")
 	public static ForgeModCommonProxy proxy;
 
+	// Blocks
+
+	public static Block smoothStone;
+
 	@PreInit
 	public void PreInit(FMLPreInitializationEvent e) {
-
+		// Blocks
+		smoothStone = new BlockSmoothStone(2500)
+				.setUnlocalizedName("smoothStone");
 	}
 
 	@Init
 	public void InitForgeMod(FMLInitializationEvent event) {
+		proxy.registerBlocks();
 		NetworkRegistry.instance().registerGuiHandler(this, proxy);
 	}
 

@@ -17,3 +17,23 @@
 2014-01-05 19:00:19 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Forge Mod
 2014-01-05 19:00:20 [CLIENT] [SEVERE] Realms: Invalid session id
 2014-01-05 19:00:25 [CLIENT] [INFO] Stopping!
+2014-01-05 19:32:58 [CLIENT] [INFO] Setting user: Player872
+2014-01-05 19:32:59 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-01-05 19:32:59 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-01-05 19:33:01 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Forge Mod
+2014-01-05 19:33:02 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Forge Mod
+2014-01-05 19:33:03 [CLIENT] [SEVERE] Realms: Invalid session id
+2014-01-05 19:33:29 [CLIENT] [INFO] [CHAT] Usage: /give <player> <item> [amount] [data]
+2014-01-05 19:33:33 [CLIENT] [INFO] [CHAT] That player cannot be found
+2014-01-05 19:33:38 [CLIENT] [INFO] [CHAT] That player cannot be found
+2014-01-05 19:33:48 [CLIENT] [INFO] [CHAT] Given Smooth Stone (ID 2500) * 1 to Player872
+2014-01-05 19:34:45 [CLIENT] [INFO] Stopping!
+2014-01-05 19:36:57 [CLIENT] [INFO] Setting user: Player555
+2014-01-05 19:36:58 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-01-05 19:36:58 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-01-05 19:37:00 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Forge Mod
+2014-01-05 19:37:01 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Forge Mod
+2014-01-05 19:37:02 [CLIENT] [SEVERE] Realms: Invalid session id
+2014-01-05 19:37:57 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-01-05 19:38:16 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-01-05 19:38:45 [CLIENT] [INFO] Stopping!
